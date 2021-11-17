@@ -1,0 +1,168 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header{
+    margin-right: 15px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: "Arial Black";
+    font-size: 30px;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+header nav a{
+    color: #AAA;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.perfil{
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.capa_principal{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../recursos/barbecue.jpg');
+    background-size: cover;
+    height: 500px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.capa_principal .descricao{
+    margin-bottom: 15px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.capa_principal .titulo{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
+    margin-left: 15px;
+}
+
+.botao{
+    font-size: 17px;
+    background: rgba(88, 86, 86, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.subtitulo{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.capa_principal .container{
+    width: 55%;
+}
+
+.box_carrossel{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: 15px; /*nao tem la*/
+}
+
+.carrossel{
+    margin-top: 10px;
+}
+
+/*Itens da página de informações com formatação diferente*/
+.containerdois{
+    width: 70%;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+
+.informacoes{
+    font-size: 18px;
+}
+
+.capa_principal .titulodois{
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.capa_principal .subtitulodois{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.relevante{
+    color: rgb(6, 179, 6);
+}
+
+.capa_principal .descricaodois{
+    width: 70%;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.ano{
+    margin-left: 15px;
+}
+
+.temporada{
+    margin-left: 15px;
+}
+
+.genero{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
